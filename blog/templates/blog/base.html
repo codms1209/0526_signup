@@ -1,0 +1,15 @@
+{% load static %}
+
+<head>
+    <p>과제!!</p>
+</head>
+
+<body>
+    
+    <div>
+       <p>과제 입니당</p>
+       <a href = "{% url 'accounts:signup'%}">회원가입</a>
+    </div>
+    {%block content%}
+    {% endblock %}
+</body>
